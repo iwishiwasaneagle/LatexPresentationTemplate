@@ -29,7 +29,7 @@ jobs:
         with:
           root_file: main.tex
           args: -synctex=1 -interaction=nonstopmode -file-line-error -pdf
-          pre_compile: "bibtex main || echo "Failed bibtex but continuing"; makeindex main.nlo -s nomencl.ist -o main.nls || echo "Failed makeindex but continuing"
+          pre_compile: "bibtex main || echo 'Failed bibtex but continuing'; makeindex main.nlo -s nomencl.ist -o main.nls || echo 'Failed makeindex but continuing'"
           post_compile: "latexmk -c"
 
       - name: Rename main.pdf
