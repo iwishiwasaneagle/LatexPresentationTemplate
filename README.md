@@ -1,6 +1,6 @@
 # UofG Latex Presentation template
-[![Build](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/build.yml/badge.svg)](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/build.yml)
-[![Publish](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/publish.yml/badge.svg)](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/publish.yml)
+[![Build](../../actions/workflows/build.yml/badge.svg)](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/build.yml)
+[![Publish](../../actions/workflows/publish.yml/badge.svg)](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/publish.yml)
 
 A simple beamerpresentation template for University of Glasgow students/staff/researchers/whoever
 
