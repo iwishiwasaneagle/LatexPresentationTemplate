@@ -1,0 +1,61 @@
+\documentclass[10pt,t]{beamer}
+
+\usefonttheme[onlymath]{serif}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.12}
+\usetikzlibrary{arrows,shapes,calc}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{positioning,shadows}
+\usetikzlibrary{patterns,decorations.pathmorphing,decorations.markings}
+\usepackage{tikz-3dplot}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{todonotes}
+\usepackage{listings}
+
+\usetheme{Warsaw}
+\setbeamertemplate{caption}[numbered]
+
+% --- Set Graphics Paths --- %
+
+\graphicspath{{figures/}}
+
+% --- Title Page --- %
+
+\title[GIS PDM Generation]{GIS Driven PDM Generation for SAR}
+\author[Ewers]{J.-H.~Ewers\inst{1}}
+\subtitle{Using real-world data to simulate a missing person}
+\institute[ASRD]{
+  \inst{1}
+  Aerospace Sciences Research Division\\
+  University of Glasgow}
+\date{\today}
+\logo{\includegraphics[height=0.5cm]{document/ASRD_logo.png}}
+
+% --- Layout ---%
+\input{layout.tex}
+
+% ------------ %
+% --- MAIN --- %
+% ------------ %
+
+\begin{document}
+
+\begin{noheadline}
+\frame{\titlepage}
+\end{noheadline}
+	
+\input{slides/introduction.tex}
+\input{slides/related_work.tex}
+\input{slides/method.tex}
+\input{slides/results.tex}
+
+\end{document}

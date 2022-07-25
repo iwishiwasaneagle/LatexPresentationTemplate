@@ -1,0 +1,6 @@
+{
+	"name": "TeX Live base",
+	"image": "blang/latex:ubuntu",
+	"updateRemoteUserUID": true,
+	"extensions": ["james-yu.latex-workshop", "streetsidesoftware.code-spell-checker", "christian-kohler.path-intellisense", "cssho.vscode-svgviewer", "vscodevim.vim"]
+}
