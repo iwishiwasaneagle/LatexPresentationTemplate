@@ -1,6 +1,6 @@
-# LatexPresentationTemplate
-[![Build](https://github.com/iwishiwasaneagle/LatexPresentationTemplate/actions/workflows/build.yml/badge.svg)](https://github.com/iwishiwasaneagle/LatexPresentationTemplate/actions/workflows/build.yml)
-[![Publish](https://github.com/iwishiwasaneagle/LatexPresentationTemplate/actions/workflows/publish.yml/badge.svg)](https://github.com/iwishiwasaneagle/LatexPresentationTemplate/actions/workflows/publish.yml)
+# UofG Latex Presentation template
+[![Build](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/build.yml/badge.svg)](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/build.yml)
+[![Publish](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/publish.yml/badge.svg)](https://github.com/iwishiwasaneagle/UoGLatexPresentationTemplate/actions/workflows/publish.yml)
 
 A simple beamerpresentation template for University of Glasgow students/staff/researchers/whoever
 
@@ -26,4 +26,3 @@ You will need to set a `personal access token` with the `repo` scope to enable s
 
 - https://github.com/settings/tokens
 - https://docs.github.com/en/actions/security-guides/encrypted-secrets
-- [Relevant CI configuration file](https://github.com/iwishiwasaneagle/LatexPresentationTemplate/blob/e2941bd404f4932ce1199f5704b849eaec57d688/.github/workflows/create-tag.yml#L44)
